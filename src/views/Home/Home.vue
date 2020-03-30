@@ -5,7 +5,8 @@
 </template>
 
 <script>
-import HomeHeader from './components/Header'
+// @ is an alias to /src
+import HomeHeader from './conponents/Header'
 export default {
   name: 'Home',
   components: {
