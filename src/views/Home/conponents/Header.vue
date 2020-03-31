@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand iconfont" href="#" id="logo">&#xe830;</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,6 +57,9 @@
 <style lang="scss" scoped>
 @import '../../../assets/style/scss/custom.scss';
 
+.header{
+  position: relative;
+}
 #byron-center{
   li{
     padding-right: 20px;
@@ -71,9 +74,6 @@
 }
 #logo{
     color: red;
-}
-.version{
-  display: none;
 }
 </style>>
 

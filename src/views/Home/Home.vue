@@ -1,16 +1,18 @@
 <template>
   <div>
     <home-header></home-header>
+    <home-content></home-content>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
 import HomeHeader from './conponents/Header'
+import HomeContent from './conponents/content'
 export default {
   name: 'Home',
   components: {
-    HomeHeader
+    HomeHeader,
+    HomeContent
   }
 }
 </script>
