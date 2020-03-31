@@ -25,6 +25,7 @@
   background: #fff;
   box-shadow: 0 4px 10px rgba(0,0,0,.1);
   border-top: 1px solid #666;
+  z-index: 999;
   .contain{
     max-width: 1200px;
     height: 160px;

@@ -32,8 +32,15 @@
       max-width: 500px;
       transform: translateY(-50%);
       color: #fff;
+      @media screen and (max-width: 700px){
+        top: 32%;
+        text-align: center;
+      }
       .content-header{
         font-size: 30px;
+        @media screen and (max-width: 700px){
+        font-size: 20px;
+      }
       }
       .content-body{
         font-size: $contentSize;
