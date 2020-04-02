@@ -18,6 +18,12 @@
   width: 100%;
   height: 300px;
   position: relative;
+  overflow: hidden;
+  @media screen and (max-width: 700px){
+    height: 350px;
+    background: url('../../../assets/images/minicontent.jpg') center center no-repeat;
+    background-size: cover;
+  }
   .inner{
     position: absolute;
     left: 50%;
@@ -33,22 +39,30 @@
       transform: translateY(-50%);
       color: #fff;
       @media screen and (max-width: 700px){
-        top: 32%;
+        top: 20%;
         text-align: center;
       }
       .content-header{
         font-size: 30px;
         @media screen and (max-width: 700px){
-        font-size: 20px;
-      }
+          font-size: 20px;
+        }
       }
       .content-body{
         font-size: $contentSize;
         margin-top: 20px;
+        @media screen and (max-width: 700px){
+          margin-top: 10px;
+          font-size: 16px;
+        }
       }
       .content-button{
         font-size: $contentSize;
         margin-top: 40px;
+        @media screen and (max-width: 700px){
+          margin-top: 10px;
+          font-size: 16px;
+        }
       }
     }
   }

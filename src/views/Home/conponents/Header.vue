@@ -78,7 +78,7 @@
 </style>>
 
 <script>
-import Version from '../../../components/version'
+import Version from '../../../components/Version'
 export default {
   name: 'HomeHeader',
   data () {

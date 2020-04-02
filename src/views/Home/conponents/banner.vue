@@ -45,6 +45,11 @@
   opacity: 0;
   transform: scale(1.1);
   transition: all 1s cubic-bezier(0.25,0.1, 0.25 ,1);
+  @media screen and (max-width: 700px){
+    height: 600px;
+    background-image: url('../../../assets/images/minibanner-one.jpg');
+    background-size: cover;
+  }
   .inner{
     position: absolute;
     left: 50%;
@@ -55,18 +60,16 @@
     .banner-inner{
       position: absolute;
       top: 50%;
+      width: 100%;
       transform: translateY(-50%);
       font-weight: 500;
       @media screen and (max-width: 700px){
-        left: 16%;
-        top: 32%;
+        top: 20%;
+        padding: 0 30px;
         text-align: center;
       }
       .banner-header{
         font-size: 20px;
-        @media screen and (max-width: 700px){
-        font-size: 28px;
-      }
       }
       .banner-body{
         font-size: $iconSize;
@@ -89,6 +92,13 @@
         transform: translate(0%);
         overflow: hidden;
         box-sizing: border-box;
+        @media screen and (max-width: 700px){
+          margin-top: 20px;
+          margin-bottom: 10px;
+          height: 40px;
+          font-size: 14px;
+          line-height: 40px;
+        }
         &:hover{
         &::before{
           content: "";
@@ -111,10 +121,18 @@
 }
 .banner-two{
   background: url('../../../assets/images/banner-two.jpg') center center no-repeat;
+  @media screen and (max-width: 700px){
+    height: 600px;
+    background-image: url('../../../assets/images/minibanner-two.jpg');
+    background-size: cover;
+  }
   .inner{
     .banner-inner{
       .banner-header{
         font-size: 40px;
+        @media screen and (max-width: 700px){
+          font-size: 28px;
+        }
       }
       .banner-button{
         color: #000;
