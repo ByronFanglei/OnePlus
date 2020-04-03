@@ -26,7 +26,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('../../../assets/images/shot.jpeg') center center no-repeat;
+  background: url('../../../assets/images/shotone.jpg') center center no-repeat;
   background-size: cover;
   transform: scale(1.02);
   transition: all 1s cubic-bezier(0.25,0.1, 0.25 ,1);

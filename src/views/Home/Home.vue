@@ -5,6 +5,7 @@
     <home-banner></home-banner>
     <home-four></home-four>
     <home-shot></home-shot>
+    <home-promos></home-promos>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import HomeContent from './conponents/Content'
 import HomeBanner from './conponents/Banner'
 import HomeFour from './conponents/Four'
 import HomeShot from './conponents/Shot'
+import HomePromos from './conponents/Promos'
 export default {
   name: 'Home',
   components: {
@@ -21,7 +23,8 @@ export default {
     HomeContent,
     HomeBanner,
     HomeFour,
-    HomeShot
+    HomeShot,
+    HomePromos
   }
 }
 </script>
